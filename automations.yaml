@@ -1,0 +1,290 @@
+####################################################
+#                                                  #
+#             Announce The Time                    #
+#                                                  #
+####################################################
+- id: 01-AM
+  alias: "01 AM"
+  trigger:
+  - platform: time
+    at: '01:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘1 AM’
+      
+
+- id: 02-AM
+  alias: "02 AM"
+  trigger:
+  - platform: time
+    at: '02:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘2 AM’
+      
+
+- id: 03-AM
+  alias: "03 AM"
+  trigger:
+  - platform: time
+    at: '03:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘3 AM’
+      
+
+- id: 04-AM
+  alias: "04 AM"
+  trigger:
+  - platform: time
+    at: '04:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘4 AM’
+      
+
+- id: 05-AM
+  alias: "05 AM"
+  trigger:
+  - platform: time
+    at: '05:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘5 AM’
+      
+
+- id: 06-AM
+  alias: "06 AM"
+  trigger:
+  - platform: time
+    at: '06:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘6 AM’
+      
+
+- id: 07-AM
+  alias: "07 AM"
+  trigger:
+  - platform: time
+    at: '07:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘7 AM’
+      
+
+- id: 08-AM
+  alias: "08 AM"
+  trigger:
+  - platform: time
+    at: '08:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘8 AM’
+      
+
+- id: 09-AM
+  alias: "09 AM"
+  trigger:
+  - platform: time
+    at: '09:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘9 AM’
+      
+
+- id: 10-AM
+  alias: "10 AM"
+  trigger:
+  - platform: time
+    at: '10:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘10 AM’
+      
+
+- id: 11-AM
+  alias: "11 AM"
+  trigger:
+  - platform: time
+    at: '11:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘11 AM’
+ 
+- id: 12-PM
+  alias: "12 PM"
+  trigger:
+  - platform: time
+    at: '12:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘12 PM’
+                    
+
+- id: 01-PM
+  alias: "01 PM"
+  trigger:
+  - platform: time
+    at: '13:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘1 PM’
+      
+
+- id: 02-PM
+  alias: "02 PM"
+  trigger:
+  - platform: time
+    at: '14:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘2 PM’
+      
+
+- id: 03-PM
+  alias: "03 PM"
+  trigger:
+  - platform: time
+    at: '15:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘3 PM’
+      
+
+- id: 04-PM
+  alias: "04 PM"
+  trigger:
+  - platform: time
+    at: '16:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘4 PM’
+      
+
+- id: 05-PM
+  alias: "05 PM"
+  trigger:
+  - platform: time
+    at: '17:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘5 PM’
+      
+
+- id: 06-PM
+  alias: "06 PM"
+  trigger:
+  - platform: time
+    at: '18:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘6 PM’
+      
+
+- id: 07-PM
+  alias: "07 PM"
+  trigger:
+  - platform: time
+    at: '19:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘7 PM’
+      
+
+- id: 08-PM
+  alias: "08 PM"
+  trigger:
+  - platform: time
+    at: '20:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘8 PM’
+      
+
+- id: 09-PM
+  alias: "09 PM"
+  trigger:
+  - platform: time
+    at: '21:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘9 PM’
+      
+
+- id: 10-PM
+  alias: "10 PM"
+  trigger:
+  - platform: time
+    at: '22:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘10 PM’
+      
+
+- id: 11-PM
+  alias: "11 PM"
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘11 PM’
+ 
+- id: 12-AM
+  alias: "12 AM"
+  trigger:
+  - platform: time
+    at: '00:00:00'
+  action:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.dining_room_speaker
+      message: ‘12 AM’
+ 
