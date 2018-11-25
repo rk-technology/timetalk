@@ -1,8 +1,30 @@
-######################################################################
-#                        TimeTalk                                    #
-#                     Announce The Time                              #
-# NOTE: You Will Need To Change The Entity_ID To Your Google Home    #
-######################################################################
+#####################################################################
+#                        TimeTalk                                   #
+#                     Announce The Time                             #
+# NOTE: You Will Need To Change The Entity_ID To Your Google Home   #
+# NOTE: You Will Also Need A 1 Second Silent Audio File To Play     #
+#####################################################################
+- alias: Keep Google Home Alive
+  trigger:
+    platform: time
+    minutes: '/2'
+    seconds: 00
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: media_player.dining_room_speaker
+        state: 'off'
+      - condition: state
+        entity_id: media_player.dining_room_speaker
+        state: 'idle'
+  action:
+    service: media_player.play_media
+    entity_id: media_player.dining_room_speaker
+    data:
+      media_content_id: http://192.168.1.168:8123/local/1sec.m4a
+      media_content_type: music
+
 - id: 01-AM
   alias: "01 AM"
   trigger:
